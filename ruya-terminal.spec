@@ -11,6 +11,7 @@ Source3: ruya-terminal.sh
 Source4: Makefile
 Requires: bicon-fonts
 Requires: bicon
+Requires: make
 BuildArch: noarch
 
 %description
