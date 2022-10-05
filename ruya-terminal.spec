@@ -2,7 +2,7 @@ Name: ruya-terminal
 Summary: Ruya Terminal
 Summary(ar): طرفية رؤية
 Version: 0.1
-Release: 2%{?dist}
+Release: 3%{?dist}
 License: GPLv3
 URL: https://ruya.parmg.sa
 Source1: shell-lang
@@ -32,5 +32,5 @@ cp %{S:1} %{S:2} %{S:3} %{S:4} .
 %{_sysconfdir}/profile.d/ruya-terminal.sh
 
 %changelog
-* Tue Oct 4 2022 Mosaab Alzoubi <mosaab[AT]parmg[DOT]sa> - 0.1-2
+* Tue Oct 4 2022 Mosaab Alzoubi <mosaab[AT]parmg[DOT]sa> - 0.1-3
 - Initial
